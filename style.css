@@ -1,0 +1,253 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(253, 253, 253);
+    
+}
+body{
+    background-image: linear-gradient(to right, rgb(1, 29, 32) , rgb(0, 117, 138));
+    
+}
+
+/* LOGIN PAGE */
+.login-card {
+    margin-top: 15%;
+    margin-left: 33%;
+    margin-right: 33%;
+    border: 1px solid  rgb(34, 201, 190);
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px  rgb(34, 201, 190) ;
+
+}
+input {
+    background-color:  rgba(255, 255, 255,);
+    border: none;
+    border-radius: 2px;
+    color: rgb(6, 18, 24);
+    font-size: 14px;
+}
+.login-card label {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.login-card .btn {
+    color:  rgb(34, 201, 190);
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid  rgb(34, 201, 190);
+    box-shadow: 0px 0px 5px  rgb(34, 201, 190) ;
+    
+}
+.login-card .btn:hover {
+    color:  rgb(2, 43, 40);
+    background-color: rgb(34, 201, 190);
+    box-shadow: 0px 0px 5px  rgb(34, 201, 190) ;
+
+}
+
+/* ADD PAGE */
+main {
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.login {
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 5px  rgb(34, 201, 190) ;
+    border-radius: 20px;
+
+}
+.login .upload {
+    color: rgb(3, 109, 112);
+    cursor: pointer;
+}
+.cancel-btn {
+    text-decoration: none;
+    color: rgb(231, 172, 168);
+    text-align: center;
+    background-color: rgb(4, 44, 51);
+    box-shadow: 0px 0px 5px rgb(4, 44, 51) ;
+    border-radius: 10px;
+    padding: 1%;
+    
+}
+.login .cancel-btn:hover {
+    color: red;
+
+}
+.login::placeholder{
+    color: rgb(133, 130, 130);
+    opacity: 0.1;
+}
+.login .btn{
+    color:  rgb(34, 201, 190);
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid  rgb(34, 201, 190);
+    box-shadow: 0px 0px 5px  rgb(34, 201, 190) ;
+}
+.login .btn:hover {
+    color:  rgb(2, 43, 40);
+    background-color: rgb(34, 201, 190);
+}
+
+
+/* SEARCH PAGE */
+
+.outp table {
+    border-collapse: collapse;
+    width: 100%;
+    text-transform: uppercase;
+    
+}
+.ouput  th, td {
+    border: 1px solid rgb(71, 125, 150);
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.search-container th {
+    background-color: #012125;
+}
+
+.search-container .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-container .delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+.search-container  .update-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-container .update-btn:hover {
+    background-color: lightblue;
+}
+
+.search-container .add-link {
+    display: block;
+    margin-top: 0;
+    margin-left: 5%;
+    width:100px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.search-container .add-link:hover {
+    background-color: green;
+}
+
+.search-container {
+    margin-top: 5%;
+    margin-left:40%;
+}
+.search-container input {
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 1%;
+    box-shadow: 0px 2px 5px  rgb(24, 23, 23);
+}
+
+/* 
+/* OUTPUT PAGE */
+.output table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.output h1 {
+    text-shadow: 2px 2px 5px #012125;
+}
+.output th, td {
+    border: 1px solid rgb(34, 201, 190);
+    padding: 8px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.output th {
+    background-color: rgb(4, 44, 51);
+}
+
+.output .delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.output .delete-btn:hover {
+    background-color: #d32f2f;
+}
+.output .del-btn {
+    text-transform: capitalize;
+    background-color: red;
+    margin-left:90%;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.output .del-btn:hover {
+    background-color: #d32f2f;
+}
+
+.output .update-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.output .update-btn:hover {
+    background-color: lightblue;
+}
+
+.output .add-link {
+    display: block;
+    margin-top: 0;
+    margin-left: 5%;
+    width:100px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.output .add-link:hover {
+    background-color: green;
+}
+
+.output .search-container {
+    margin-top: 5%;
+    margin-left:40%;
+}
+.output {
+    margin-top: 5%;
+}
+.output .user h1{
+    font-size: 40px;
+}
